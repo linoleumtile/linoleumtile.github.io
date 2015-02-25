@@ -1,0 +1,202 @@
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body { height: 100%; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%; }
+
+h1 { margin-bottom: 1em; }
+p { margin: 1em 0; }
+
+
+/*****************************************************************************/
+/*
+/* Home
+/*
+/*****************************************************************************/
+
+/* Fonts */
+
+body {
+  font-family: "Lato", Helvetica, sans-serif;
+  color: #343430;
+  background-color: #F5F4F6;
+}
+
+
+h1 {
+	font-weight: 300;
+	font-size: 18px;
+}
+
+
+h2 {
+	font-weight: 300;
+	font-size: 35px;
+}
+
+h3 {
+	font-weight: 400;
+	font-size: 22px;
+}
+
+p {
+	font-weight: 300;
+	font-size: 16px;
+}
+
+ul {
+	font-weight: 300;
+	font-size: 16px;
+}
+
+a {
+	color: #e0a9b7;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #e0a9b7;
+}
+
+.small {
+	font-size: 11px !important;
+}
+
+.lead {
+	font-size: 19px;
+}
+
+/* Scaffolding & Alignment */
+
+
+.site {
+	margin-top: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+}
+
+
+.header {
+	text-align: center;
+}
+
+.box {
+	background-color: #CBCBC1;
+	width: 20%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 65%;
+	text-align: right;
+	padding-top: 4%
+}
+
+.border {
+	border: 1px;
+	border-style: solid;
+	height: 80%;
+}
+
+h1 {
+	color: #f5f4f6;
+	position: relative;
+	bottom: 1px;
+}
+
+
+hr {
+	margin-top: 20px;
+	margin-bottom: 20px; 
+ 	border: 0;
+    height: 0;
+    border-top: 1px solid #e5c8ce;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.right {
+	float: right;
+}
+
+.left {
+	float: left;
+}
+
+section {
+	display: block;
+}
+
+.intro {
+	display: block;
+}
+
+footer {
+	padding-bottom: 80px;
+}
+
+/*****************************************************************************/
+/*
+/* Intro
+/*
+/*****************************************************************************/
+
+.intro-img {
+	width: 200px;
+	max-width: 20%;
+	border: 1px;
+	border-style: solid;
+	border-color: #999997;
+	border-radius: 100px;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+/*****************************************************************************/
+/*
+/* Work
+/*
+/*****************************************************************************/
+
+.logo {
+	width: 100px;
+	max-width: 35%;
+	padding: 15px;
+}
+
+/*****************************************************************************/
+/*
+/* Talks
+/*
+/*****************************************************************************/
+
+.talk {
+	width: 400px;
+	max-width: 30%;
+	display: inline;
+}
+
+/*****************************************************************************/
+/*
+/* Media Queries
+/*
+/*****************************************************************************/
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media screen and (max-device-width : 480px) {
+	.intro-img {
+		width: 100px;
+	}
+}
