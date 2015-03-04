@@ -9,16 +9,21 @@
         <!-- syntax highlighting CSS -->
         <link rel="stylesheet" href="/css/syntax.css">
 
-        <!-- fonts -->
-        <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
-
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/main.css">
+
+        <!--Font Awesome -->
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+        <!--jQuery for animations -->
+        <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 
     </head>
     <body>
         <div class="header">
-            <h1>beth mckeever</h1>
+            <div class="name">
+                <h1>beth mckeever</h1>
+            </div>
         </div>
       <div class="site">
         <section class="intro">
@@ -33,13 +38,33 @@
             {% include work.html %}
         </section>
         <hr>
-        <section class="tools">
+        <!-- <section class="tools">
             {% include tools.html %}
         </section>
-        <hr>
+        <hr> -->
+        <!-- <section class="writing">
+            {% include writing.html %}
+        </section>
+        <hr> -->
+        <section class="social">
+            {% include social.html %}
+        </section>
+      </div>
         <footer class="footer">
             {% include footer.html %}
         </footer>
-      </div>
+    <!--Animations on scroll -->
+    <script>
+    $(window).scroll(function() {
+        $('.logo').each(function(){
+        var imagePos = $(this).offset().top;
+
+        var topOfWindow = $(window).scrollTop();
+            if (imagePos < topOfWindow+1200) {
+                $(this).addClass("slideRight");
+            }
+        });
+    });
+    </script>
     </body>
 </html>

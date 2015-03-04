@@ -1,5 +1,14 @@
 /*****************************************************************************/
 /*
+/* Imports
+/*
+/*****************************************************************************/
+
+@import url('animations.css');
+@import url('http://fonts.googleapis.com/css?family=Cabin|Muli:300,400');
+
+/*****************************************************************************/
+/*
 /* Common
 /*
 /*****************************************************************************/
@@ -28,7 +37,7 @@ p { margin: 1em 0; }
 /* Fonts */
 
 body {
-  font-family: "Lato", Helvetica, sans-serif;
+  font-family: "Muli", Helvetica, sans-serif;
   color: #343430;
   background-color: #F5F4F6;
 }
@@ -36,28 +45,31 @@ body {
 
 h1 {
 	font-weight: 300;
-	font-size: 18px;
+	font-size: 30px;
+	padding-top: 6px;
+	color: #E0D1D1;
 }
 
 
 h2 {
 	font-weight: 300;
-	font-size: 35px;
+	font-size: 50px;
 }
 
 h3 {
 	font-weight: 400;
-	font-size: 22px;
+	font-size: 30px;
 }
 
 p {
 	font-weight: 300;
-	font-size: 16px;
+	font-size: 22px;
 }
 
 ul {
 	font-weight: 300;
-	font-size: 16px;
+	font-size: 22px;
+	list-style-type: none;
 }
 
 a {
@@ -69,19 +81,22 @@ a:visited {
 	color: #e0a9b7;
 }
 
+.animate {
+	visibility: hidden;
+}
+
 .small {
 	font-size: 11px !important;
 }
 
 .lead {
-	font-size: 19px;
+	font-size: 35px;
 }
 
 /* Scaffolding & Alignment */
 
 
 .site {
-	margin-top: 5%;
 	margin-left: auto;
 	margin-right: auto;
 	width: 90%;
@@ -89,7 +104,9 @@ a:visited {
 
 
 .header {
-	text-align: center;
+	background-color: white;
+	border-bottom: 1px solid #e5c8ce;
+	height: 50px;
 }
 
 .box {
@@ -108,20 +125,20 @@ a:visited {
 	height: 80%;
 }
 
-h1 {
-	color: #f5f4f6;
-	position: relative;
-	bottom: 1px;
-}
-
 
 hr {
-	margin-top: 20px;
-	margin-bottom: 20px; 
+	margin-top: 100px;
+	margin-bottom: 100px; 
  	border: 0;
     height: 0;
     border-top: 1px solid #e5c8ce;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.name {
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
 }
 
 .right {
@@ -140,8 +157,20 @@ section {
 	display: block;
 }
 
-footer {
-	padding-bottom: 80px;
+.social {
+	padding-bottom: 60px;
+}
+
+.copyright {
+	background-color: white;
+	border-top: 1px solid #e5c8ce;
+	height: 25px;
+}
+
+.copyright > p {
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
 }
 
 /*****************************************************************************/
@@ -163,6 +192,7 @@ footer {
   overflow: auto;
 }
 
+
 /*****************************************************************************/
 /*
 /* Work
@@ -173,6 +203,7 @@ footer {
 	width: 100px;
 	max-width: 35%;
 	padding: 15px;
+	visibility: hidden;
 }
 
 /*****************************************************************************/
@@ -185,6 +216,23 @@ footer {
 	width: 400px;
 	max-width: 30%;
 	display: inline;
+}
+
+/*****************************************************************************/
+/*
+/* Social
+/*
+/*****************************************************************************/
+
+.btn {
+	border: 1px solid #000000;
+	border-radius: 4px;
+	background-color: #c9c9c9;
+	padding: 10px;
+}
+ 
+.social-link {
+	padding-right: 20px;
 }
 
 /*****************************************************************************/
