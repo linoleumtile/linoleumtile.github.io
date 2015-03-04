@@ -225,10 +225,15 @@ section {
 /*****************************************************************************/
 
 .btn {
-	border: 1px solid #000000;
+	border: 1px solid #db9b9b;
 	border-radius: 4px;
-	background-color: #c9c9c9;
-	padding: 10px;
+	background-color: #e0a9b7;
+	display: inline-block;
+	padding: 10px 15px;
+}
+
+a.btn {
+	color: #fff;
 }
  
 .social-link {
