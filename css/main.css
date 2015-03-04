@@ -173,6 +173,10 @@ section {
 	width: 90%;
 }
 
+.analytics {
+	visibility: hidden;
+}
+
 /*****************************************************************************/
 /*
 /* Intro
@@ -230,6 +234,13 @@ section {
 	background-color: #e0a9b7;
 	display: inline-block;
 	padding: 10px 15px;
+	/*-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;*/
 }
 
 a.btn {
