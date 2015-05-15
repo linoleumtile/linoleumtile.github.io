@@ -188,17 +188,6 @@ section {
 	padding-bottom: 60px;
 }
 
-.copyright {
-	background-color: white;
-	border-top: 1px solid #e5c8ce;
-	height: 35px;
-}
-
-.copyright > p {
-	margin-left: auto;
-	margin-right: auto;
-	width: 90%;
-}
 
 .analytics {
 	visibility: hidden;
@@ -303,7 +292,16 @@ a.btn {
 /*
 /*****************************************************************************/
 
+.copyright {
+	background-color: white;
+	border-top: 1px solid #e5c8ce;
+	height: 75px;
+}
+
 .copyright > p {
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
 	max-width: inherit;
 }
 
