@@ -299,6 +299,11 @@ p.note {
 	font-size: 16px;
 }
 
+.other-speaker {
+	font-style: italic;
+	font-size: 14px;
+}
+
 /*****************************************************************************/
 /*
 /* Footer
