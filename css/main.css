@@ -261,6 +261,9 @@ section {
 
 a.btn {
 	color: #fff;
+	width: 6em;
+	text-align: center;
+	margin-bottom: 15px;
 }
  
 .social-link {
