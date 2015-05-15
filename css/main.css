@@ -312,8 +312,8 @@ p.note {
 	font-size: 16px;
 }
 
-#speaking-subhead {
-	padding-bottom: 20px;
+.speaking-subhead {
+	padding-bottom: 10px;
 }
 
 /*****************************************************************************/
