@@ -72,6 +72,16 @@ h3 {
 	font-size: 30px;
 }
 
+h4 {
+	font-weight: 400;
+	font-size: 22px;
+}
+
+h5 {
+	font-weight: 300;
+	font-size: 18px;
+}
+
 p {
 	font-weight: 300;
 	font-size: 22px;
