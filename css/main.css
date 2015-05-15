@@ -72,12 +72,12 @@ h3 {
 	font-size: 30px;
 }
 
-h4 {
+h3.sub {
 	font-weight: 400;
 	font-size: 22px;
 }
 
-h5 {
+h3.sub-small {
 	font-weight: 300;
 	font-size: 18px;
 }
@@ -155,6 +155,11 @@ hr {
     height: 0;
     border-top: 1px solid #e5c8ce;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+hr.short {
+	margin-top: 45px;
+	margin-bottom: 45px;
 }
 
 .name {
@@ -272,6 +277,24 @@ a.btn {
 .social-link {
 	padding-right: 20px;
 	visibility: hidden;
+}
+
+/*****************************************************************************/
+/*
+/* Resume
+/*
+/*****************************************************************************/
+
+#experience-header, #edu-header {
+	padding-bottom: 20px;
+}
+
+.description > p {
+	font-size: 18px;
+}
+
+.description {
+	padding-bottom: 15px;
 }
 
 /*****************************************************************************/
