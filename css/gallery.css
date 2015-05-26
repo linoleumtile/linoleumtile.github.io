@@ -1,6 +1,9 @@
+/* Pure CSS Lightbox adapted from http://codepen.io/gschier/pen/HCoqh by Gregory Schier */
+
 /** THUMBNAIL MARKUP **/
   .thumb > img {
     max-width: 30%;
+    min-width: 350px;
   }
 
 /** LIGHTBOX MARKUP **/
@@ -22,8 +25,8 @@
 
 .lightbox img {
   /** Pad the lightbox image */
-  max-width: 90%;
-  max-height: 80%;
+  max-width: 98%;
+  max-height: 95%;
   margin-top: 2%;
 }
 
