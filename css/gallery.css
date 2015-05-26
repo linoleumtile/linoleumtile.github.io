@@ -1,59 +1,58 @@
-dialog {
-    position: fixed;
-    left: 50%;
-    top: 50%; 
-    transform: translate(-50%, -50%);
-    margin: auto;
-    border: solid;
-    padding: 1em;
-    background: white;
-    color: black;
-    display: none;
-    opacity: 0; 
-    border: none;
+/*
+
+html,body {
+  font-family: 'Raleway', sans-serif;
+  padding: 0 2em;
+  font-size: 18px;
+  background: #222;
+  color: #aaa;
+  text-align:center;
 }
-dialog[open] {
-    display: block;
+
+h1 {
+  font-size: 3em;
+  font-weight: 200;
+  margin: 0.5em 0 0.2em 0;
 }
-.backdrop {
-    position: fixed;
-    background-color: rgba(0,0,0,0.1);
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+
+p {
+  margin: 1.5em 0;
+  color: #888;
 }
-@keyframes fadeToNearBlack { 
-  to { background: rgba(0,0,0,0.9); }
+
+.italic { font-style: italic; }
+.small { font-size: 0.8em; }
+
+*/
+
+/** LIGHTBOX MARKUP **/
+
+.lightbox {
+  /** Default lightbox to hidden */
+  display: none;
+
+  /** Position and style */
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.8);
 }
-@keyframes goBig { 
-  to { opacity: 1; } 
+
+.lightbox img {
+  /** Pad the lightbox image */
+  max-width: 90%;
+  max-height: 80%;
+  margin-top: 2%;
 }
-body { min-height: 100vh; }
-nav#thumbs { 
-  display: flex; 
-} 
-nav#thumbs a { 
-  display: block; flex: 1; 
-} 
-nav#thumbs a img { 
-  width: 100%; height: auto; 
-}
-dialog button { 
-  border: none;
-  background: none;
-  font-size: 1.2rem; 
-}
-dialog[open] { 
-  animation: goBig 1s .4s forwards;
-  max-width: 700px; 
-}
-dialog[open]::backdrop { 
-  animation: fadeToNearBlack 1s forwards; 
-}
-.backdrop { 
-  animation: fadeToNearBlack 1s forwards; 
-}
-dialog img { 
-  width: 100%; height: auto; 
+
+.lightbox:target {
+  /** Remove default browser outline */
+  outline: none;
+
+  /** Unhide lightbox **/
+  display: block;
 }

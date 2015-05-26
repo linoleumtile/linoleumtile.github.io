@@ -1,7 +1,7 @@
 // uses Google polyfill for dialog element in non-supporting browsers
 // (https://github.com/GoogleChrome/dialog-polyfill)
 
-function showImage(e) {
+/* function showImage(e) {
 	e.preventDefault();
 	coverimage.setAttribute("src", this.getAttribute("href"));
 	coverimage.setAttribute("alt", this.querySelector("img").getAttribute("alt"));
@@ -21,3 +21,4 @@ if (!testdialog.open){
 	dialogPolyfill.registerDialog(cover);
 }
 for (var i=0; i<imglinks.length; i++) { imglinks[i].onclick = showImage; }
+*/
