@@ -1,29 +1,7 @@
-/*
-
-html,body {
-  font-family: 'Raleway', sans-serif;
-  padding: 0 2em;
-  font-size: 18px;
-  background: #222;
-  color: #aaa;
-  text-align:center;
-}
-
-h1 {
-  font-size: 3em;
-  font-weight: 200;
-  margin: 0.5em 0 0.2em 0;
-}
-
-p {
-  margin: 1.5em 0;
-  color: #888;
-}
-
-.italic { font-style: italic; }
-.small { font-size: 0.8em; }
-
-*/
+/** THUMBNAIL MARKUP **/
+  .thumb > img {
+    max-width: 30%;
+  }
 
 /** LIGHTBOX MARKUP **/
 
