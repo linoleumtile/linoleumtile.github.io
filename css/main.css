@@ -5,6 +5,7 @@
 /*****************************************************************************/
 
 @import url('animations.css');
+@import url('gallery.css');
 @import url('http://fonts.googleapis.com/css?family=Cabin|Muli:300,400');
 
 /*****************************************************************************/
@@ -57,7 +58,7 @@ body {
 h1 {
 	font-weight: 300;
 	font-size: 30px;
-	padding-top: 6px;
+	/* padding-top: 6px; */
 	color: #E0D1D1;
 }
 
@@ -315,6 +316,24 @@ p.note {
 .speaking-subhead {
 	padding-bottom: 10px;
 }
+
+/*****************************************************************************/
+/*
+/* Portfolio
+/*
+/*****************************************************************************/
+
+
+ul.tags > li {
+	display: inline-flex;
+	font-size: 10px;
+	text-transform: uppercase;
+	background-color: #e7bcb9;
+	padding: 8px;
+	color: white;
+	border-radius: 3px;
+}
+
 
 /*****************************************************************************/
 /*
