@@ -6,6 +6,12 @@
     min-width: 350px;
   }
 
+  .img {
+    display: inline;
+    margin-right: 25px;
+    padding-bottom: 25px;
+  }
+
 /** LIGHTBOX MARKUP **/
 
 .lightbox {
