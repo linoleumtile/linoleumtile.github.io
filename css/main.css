@@ -58,7 +58,7 @@ body {
 h1 {
 	font-weight: 300;
 	font-size: 30px;
-	padding-top: 6px;
+	/* padding-top: 6px; */
 	color: #E0D1D1;
 }
 
