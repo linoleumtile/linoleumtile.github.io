@@ -341,6 +341,10 @@ ul.tags > li {
 /*
 /*****************************************************************************/
 
+.pad-bottom {
+	padding-bottom: 500px;
+}
+
 .copyright {
 	background-color: white;
 	border-top: 1px solid #e5c8ce;
